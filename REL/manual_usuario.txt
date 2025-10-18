@@ -1,0 +1,15 @@
+Para se utilizar a rede neural, tenha o arquivo tabela_tratada.csv na pasta e execute o arquivo de criação 
+da rede neural e treinamento com:
+
+python3 treina_rede_neural.py
+
+E depois, com os dados a serem preditos no arquivo dados_validar.csv, contendo o resultado de todos os 
+testes excluindo o teste de IgG de Covid-19 (teste a ser predito), execute:
+
+python3 valida_dados.py
+
+Isso executa a predição do resultado de IgG para todos os dados contidos no arquivo e salva os resultados no
+arquivo predicoes.csv.
+
+Os demais arquivos da pasta, criados após o treinamento da rede neural, guardam informações necessárias para
+a manipulação dos dados do arquivo dados_validar.csv e não devem ser deletados.
