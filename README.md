@@ -2,10 +2,13 @@
 
 ## Directories
 
-### NN directory
+## PRE (preprocessing) directory
 
-Trains the neural network from the 
+trata_dados.py reads the HC_EXAMES_1.csv file and, treats it and creates another file tabela_tratada.csv with the correct values to be used for the neural network.
 
-## PRE directory
+### NN (neural network) directory
 
-## REL directory
+treina_rede_neural.py trains a neural network using the tabela_tratada.csv file, that has already been treated. Once executed, it creates the modelo_igg.pth file, that saves the neural network model.
+
+valida_dados.py does the prediction using the data of the patients we want to predict in dados_validar.csv and creates a new file, predictions.csv, with the results.
+
