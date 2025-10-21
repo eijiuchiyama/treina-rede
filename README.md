@@ -4,7 +4,7 @@
 
 ## PRE (preprocessing) directory
 
-trata_dados.py reads the HC_EXAMES_1.csv file and, treats it and creates another file tabela_tratada.csv with the correct values to be used for the neural network.
+trata_dados.py reads the HC_EXAMES_1.csv and HC_PACIENTES_1.csv files, treats its data, join them in a single file and saves it in the file tabela_tratada.csv with the correct values to be used for the neural network.
 
 ### NN (neural network) directory
 
