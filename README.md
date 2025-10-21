@@ -6,6 +6,8 @@
 
 trata_dados.py reads the HC_EXAMES_1.csv and HC_PACIENTES_1.csv files, treats its data, join them in a single file and saves it in the file tabela_tratada.csv with the correct values to be used for the neural network.
 
+The files HC_EXAMES_1.csv and HC_PACIENTES.csv couldn't be pushed to this repository due to their large size. They can be, however, downloaded from https://repositoriodatasharingfapesp.uspdigital.usp.br/handle/item/100
+
 ### NN (neural network) directory
 
 treina_rede_neural.py trains a neural network using the tabela_tratada.csv file, that has already been treated. Once executed, it creates the modelo_igg.pth file, that saves the neural network model.
