@@ -12,3 +12,4 @@ treina_rede_neural.py trains a neural network using the tabela_tratada.csv file,
 
 valida_dados.py does the prediction using the data of the patients we want to predict in dados_validar.csv and creates a new file, predictions.csv, with the results.
 
+This work used data obtained from the COVID-19 Data Sharing/BR, available at https://repositoriodatasharingfapesp.uspdigital.usp.br/.
